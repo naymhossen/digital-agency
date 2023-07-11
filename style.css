@@ -1,0 +1,233 @@
+
+*{font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.primary-btn{
+    color: aliceblue;
+    background-color: red;
+}
+.primary-text{
+color: red;}
+
+/* create a header section */
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 10px;
+    color: white;
+}
+.menus{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: bold;
+    font-size:18px ;
+    
+}
+
+/* <!-- Banner section --> */
+
+
+.banner-container{
+    height: 100vh;
+    background-image: url('/asset/image/background.jpg');
+    /* background-blend-mode: overlay; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.banner-info{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    align-content: center;
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+
+}
+.banner-describ{
+    color: white;
+    padding: 15px;
+}
+.btn{
+    padding: 12px 20px;
+    border: none;
+    margin: 3px;
+    border-radius: 4px;
+}
+
+
+/* <!-- service-container section --> */
+
+.service-container{
+    
+    height: 100vh;
+    background-image: url('./asset/image/banner-sec-1.jpeg');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.left-service-info{
+    align-items: center;
+    margin-right: 50px;
+}
+.service-title{
+    color: gold;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.sercice-discription{
+    color: gold;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.service-list{
+    color: gold;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.first-two-box{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    
+}
+.box{
+    color: black;
+    width: 150px;
+    height: 130px;
+    padding: 50PX;
+    background-color: white;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+}
+
+   /* Aouthor section */
+.author-container{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    color: gold;
+    margin-top: 30px;
+}
+.author-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-right: 2px solid red;
+    padding-right: 25px;
+
+}
+.auther-icon{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+/* <!-- appoinment container --> */
+
+.appoinment-container{
+    width: 70%;
+    background-image: url('./asset/image/contact-card.jpeg');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: auto;
+    margin-top: -35px;
+    border-radius: 19px;
+    gap: 20px;
+}
+.apoin-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.apoin-describe{
+    display: flex;
+    justify-content: center;
+}
+
+   /* blog and cords container */
+
+.blog-container{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.blog-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card{
+    width: 300px;
+    height: 350px;
+    color:black;
+    background-color: gold;
+    border-radius: 5px;
+    box-shadow: 4px 8px 4px goldenrod;
+    
+}
+.cards-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/asset/image/background.jpg');
+}
+
+/* <!-- informayion container --> */
+
+.information-container{
+    color: white;
+    background-color: gray;
+    margin-top: 50px;
+    border-radius: 5px;
+    height: 50vh;
+    padding: 20px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 20px;
+}
+.coppy{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    height: 2vh;
+    background-color: gray;
+    padding: 50px;
+    margin: auto;
+    font-size: 20px;
+}
